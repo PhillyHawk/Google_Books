@@ -26,7 +26,7 @@ export class BookListItem extends React.Component{
                 </p>
                 <a target="_blank"
                     href={this.props.link}
-                    rel="noopner noreferrer">
+                    rel="noopener noreferrer">
                       Go to book!
                     </a>
               </Col>

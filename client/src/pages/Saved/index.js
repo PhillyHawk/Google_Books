@@ -28,7 +28,7 @@ class Saved extends Component {
   deleteFromDB = id => {
     console.log(id);
 
-    axios.delete("/api/books/${id}")
+    axios.delete(`/api/books/${id}`)
       .then( () => {
         toast.error("Book Deleted");
         this.getBooks();
