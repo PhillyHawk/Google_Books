@@ -3,12 +3,12 @@ const booksController = require("../../controllers/booksController");
 
 router.route("/")
   .get(booksController.findAll)
-  .post(bookController.create);
+  .post(booksController.create);
 
   router
-    .rouote("/:id")
+    .route("/:id")
     .get(booksController.findById)
     .put(booksController.update)
     .delete(booksController.romove);
 
-    module.export = router;
+    module.exports = router;

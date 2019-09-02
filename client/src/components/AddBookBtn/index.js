@@ -1,10 +1,10 @@
 import React from "react"
 import Button from "../Button";
 import axios from "axios"
-import 'bootstrap/dist/scc/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { toast } from 'react-toastify';
 
-class AddBookBtn extends React.Componet {
+class AddBookBtn extends React.Component {
 
   postToDB = (book) => {
     var dbBook = {
@@ -19,7 +19,7 @@ class AddBookBtn extends React.Componet {
     .then( () => toast.success(`You added ${book.title} to your bookself`))
     .catch(err => console.log(err))
   }
-  render(){
+  render() {
     return (
       <div>
         <Button type="primary" onClick={() =>
