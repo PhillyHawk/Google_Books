@@ -1,11 +1,12 @@
 .navbar{
-  background-color: red;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ONzFz8-1aOzhC-HZICdJOYv4HbI1L0fPKDdp5tbG5w-cWTIK2Q");
+  background-size: 100%;
   color:black;
 }
 .navbar-brand{
-  color: black;
+  color: White;
   font-size: 20px;
 }
 .nav-item{
-  color: rgb(61, 61, 61);
+  color: white;
 }

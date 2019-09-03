@@ -62,7 +62,7 @@ class Search extends Component {
                       <AddBookBtn
                       authors={book.volumeInfo.authors ? book.volumeInfo.authors : ["No Author Available"]}
                       title={book.volumeInfo.title}
-                      synopis={book.volumeInfo.description ? book.volumeInfo.description : "No Description Available"}
+                      synopsis={book.volumeInfo.description ? book.volumeInfo.description : "No Description Available"}
                       link={book.volumeInfo.infoLink}
                       thumbnail={book.volumeInfo.imageLinks.thumbnail ? book.volumeInfo.imageLinks.thumbnail : "#"}
                       />

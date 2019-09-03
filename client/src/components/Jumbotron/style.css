@@ -1,3 +1,6 @@
 .jumbotron{
   text-align: center;
+  background-image: url("https://media.giphy.com/media/128MHrlrHNwwU0/giphy.gif");
+  background-size: 100%;
+  height: 500px;
 }

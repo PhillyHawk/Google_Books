@@ -15,6 +15,7 @@ class AddBookBtn extends React.Component {
       link: book.link
     }
 
+    console.log(dbBook);
     axios.post("/api/books", dbBook)
     .then( () => toast.success(`You added ${book.title} to your bookself`))
     .catch(err => console.log(err))
