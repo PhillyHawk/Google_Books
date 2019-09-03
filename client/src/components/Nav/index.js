@@ -11,8 +11,8 @@ function Nav() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <a className="nav-item nav-link active" href="../../pages/Search">Search <span className="sr-only">(current)</span></a>
-          <a className="nav-item nav-link active" href="../../pages/Saved">Save <span className="sr-only">(current)</span></a>
+          <a className="nav-item nav-link active" href="/">Search <span className="sr-only">(current)</span></a>
+          <a className="nav-item nav-link active" href="/saved">Save <span className="sr-only">(current)</span></a>
           
         </div>
       </div>

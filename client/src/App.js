@@ -30,7 +30,7 @@ class App extends Component {
             pauseOnHover/>
             <Switch>
               <Route exact path="/" component={Search} />
-              <route path="bookself" component={Saved}/>
+              <Route exact path="/saved" component={Saved}/>
               <Route exact path="/books/:id" component={null}/>
               <Route component={null} />
             </Switch>
